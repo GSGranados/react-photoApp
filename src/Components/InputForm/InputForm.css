@@ -1,0 +1,32 @@
+.input_form {
+  margin: 15px auto;
+}
+
+  .input_search {
+  margin-right: 0.5rem;
+  padding: 15px 32px;
+  border: none;
+  background: none;
+  border-bottom: 2px solid black;
+  font-size: x-large;
+  
+}
+
+.form_button {
+  background-color: bisque;
+  border: none;
+  color:black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+
+.form_button:hover {
+
+    background-color: coral;
+
+}
