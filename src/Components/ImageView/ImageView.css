@@ -1,0 +1,54 @@
+
+.imageViewBack{
+
+    background-color: aquamarine;
+
+}
+
+.downloadButton{
+    background: lightcoral;
+    padding: 0.7rem;
+    border-radius: 0.8rem;
+    color: #fff;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    transition-timing-function: ease-in-out;
+    transition: 0.4s;
+
+    
+
+}
+.downloadButton :hover {
+    
+        background: royalblue;
+    
+
+}
+.homeButton{
+    background: rgb(128, 240, 162);
+    padding: 0.7rem;
+    margin-left: 0.5rem;
+    margin-top: 0.3rem;
+    border-radius: 0.8rem;
+    color: #fff;
+    margin-bottom: 0.3rem;
+    transition-timing-function: ease-in-out;
+    transition: 0.4s;
+}
+
+.homeButton :hover{
+    background: rgb(128, 204, 240);
+    
+}
+
+.image{
+    border: rgb(128, 240, 162);
+    padding-top: 2rem;
+    width: 450px;
+    height: 500px;
+
+}
+
+.imageContainer{
+    text-align: center;
+}
