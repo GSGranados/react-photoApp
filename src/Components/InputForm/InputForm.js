@@ -1,15 +1,15 @@
-import React, { Component } from "react";
+import React from "react";
 import './InputForm.css'
 
-export default class InputForm extends Component {
-  render() {
+ const InputForm = (props) => {
+  
     return (
       <div>
-        <form className ="input_form">
+        <form onSubmit={props.handleRequest} className ="input_form">
             <input className="input_search" type="text" name="imageSearch"></input>
             <button className="form_button" type="submit"> Search Images</button>
         </form>
       </div>
     );
   }
-}
+  export default InputForm;
