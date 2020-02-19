@@ -1,0 +1,33 @@
+.container-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1rem;
+  margin-top: 4rem;
+}
+
+.container-grid .imageList__container {
+  box-shadow: 11px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  background: rgb(228, 223, 223);
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.container-grid .imageList__container p {
+  color: #000000;
+}
+
+.container-grid .imageList__container button {
+    background: lightcoral;
+    padding: 0.7rem;
+    border-radius: 0.8rem;
+    color: #fff;
+    margin-bottom: 0.3rem;
+    transition: 0.45s;
+    transition-timing-function: ease-in-out;
+  }
+
+  .container-grid .imageList__container button:hover {
+    background: beige;
+    color: black;
+  }
