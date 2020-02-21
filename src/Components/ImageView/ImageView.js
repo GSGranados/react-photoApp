@@ -1,20 +1,19 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
-const ImageView = ({props}) => {
-    
+import './ImageView.css'
+const ImageView = props => {
+    console.log(props);
     return (
       <div className="imageContainer">
-        <img className="image" src={props.location.state.value.userImageURL} alt={props.location.state.value.tags}></img>
+        <img src={props.location.state.image.userImageURL} alt={props.location.state.image.tags} className="image"></img>
         <h4>
-          Credits: <span>{props.location.state.value.user}</span>
+        Credits: <span>{props.location.state.image.user}</span>
         </h4>
+        <a target="_blank" href={props.location.state.image.pageURL}>
         <button className="downloadButton">
-          <span>
-            <a target="_blank" href={props.location.state.value.pageURL}>
               Go to the Download Page
-            </a>
-          </span>
         </button>
+        </a>
         <Link to={{pathname: "/"}}><button className="homeButton">Home</button></Link>
       </div>
     );
